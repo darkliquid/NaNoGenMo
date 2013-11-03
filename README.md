@@ -1,32 +1,32 @@
 # NaNoGenMo
-National Novel Generation Month - based on [an idea I tweeted on a whim](https://twitter.com/tinysubversions/status/396305662000775168)
 
-## The Goal
+My entry for NaNoGenMo. Currently investigating various methods of analysis on
+corpus text in order to come up with some kind of engine for generating a few
+different kinds of sequences. Thinking about this in layers, I'm trying to split
+up generation into several different phases, from individual sentences to
+high-level plot themeatics.
 
-Spend the month of November writing code that generates a novel of 50k+ words.
+I'm looking at hand-building some generators based of rules from various story-
+telling and roleplaying games such as FATE, Fiasco and Microscope, then 
+combining those with stuff derived from the corpus text analysis.
 
-## The Rules
+None of this is likely to end well.
 
-The only rule is that you share at least one novel and also your source code at the end.
+# Corpus
 
-The source code does not have to be licensed in a particular way, so long as you share it. The code itself does not need to be on Github, either. I'm just using this repo as a place to organize the community.
+I'm making use of a few hand-picked novels from Project Gutenburg, namely:
 
-The "novel" is defined however you want. It could be 50,000 repetitions of the word "meow". It could literally grab a random novel from Project Gutenberg. It doesn't matter, as long as it's 50k+ words.
+http://www.gutenberg.org/1/6/6/1661/
+http://www.gutenberg.org/2/8/5/2852/
+http://www.gutenberg.org/8/0/8/8086/
+http://www.gutenberg.org/6/64/
+http://www.gutenberg.org/3/2/3/2/32325/
+http://www.gutenberg.org/8/3/834/
+http://www.gutenberg.org/6/62/
+http://www.gutenberg.org/2/0/9/2097/
+http://www.gutenberg.org/2/4/244/
 
-_Please try to respect copyright._ I'm not going to police it, as ultimately it's on your head if you want to just copy/paste a Stephen King novel or whatever, but the most useful/interesting implementations are going to be ones that don't engender lawsuits.
+Which have the non-novel text stripped out to make processing easier.
 
-This activity ends at 12:01am GMT Dec 1st.
-
-## How to Participate
-
-Open an issue on this repo and declare your intent to participate. You may continually update the issue as you work over the course of the month. Feel free to post dev diaries, sample output, etc.
-
-Also feel free to comment on other participants' issues.
-
-## Resources
-
-There's [an open issue](https://github.com/dariusk/NaNoGenMo/issues/11) where you can add resources (libraries, corpuses, APIs, techniques, etc).
-
-## That's It
-
-So yeah. Have fun with this!
+I'm also using various corpora from the NLTK project, namely gutenberg, abc, 
+reuters, brown and movie_reviews.
