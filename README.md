@@ -16,17 +16,17 @@ None of this is likely to end well.
 
 I'm making use of a few hand-picked novels from Project Gutenburg, namely:
 
-http://www.gutenberg.org/1/6/6/1661/
-http://www.gutenberg.org/2/8/5/2852/
-http://www.gutenberg.org/8/0/8/8086/
-http://www.gutenberg.org/6/64/
-http://www.gutenberg.org/3/2/3/2/32325/
-http://www.gutenberg.org/8/3/834/
-http://www.gutenberg.org/6/62/
-http://www.gutenberg.org/2/0/9/2097/
-http://www.gutenberg.org/2/4/244/
+ * http://www.gutenberg.org/1/6/6/1661/
+ * http://www.gutenberg.org/2/8/5/2852/
+ * http://www.gutenberg.org/8/0/8/8086/
+ * http://www.gutenberg.org/6/64/
+ * http://www.gutenberg.org/3/2/3/2/32325/
+ * http://www.gutenberg.org/8/3/834/
+ * http://www.gutenberg.org/6/62/
+ * http://www.gutenberg.org/2/0/9/2097/
+ * http://www.gutenberg.org/2/4/244/
 
-Which have the non-novel text stripped out to make processing easier.
+From which I stripped the non-novel text out to make processing easier.
 
 I'm also using various corpora from the NLTK project, namely gutenberg, abc, 
 reuters, brown and movie_reviews.
