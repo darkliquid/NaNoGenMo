@@ -1,0 +1,57 @@
+CC = and but or nor for yet so
+CD = [0-9]
+DT = a an the this that these those my your his her its our your their "a few" "a little" all another any both each either enough every few fewer less little many more most much neither no other several some # Always followed by noun
+EX = there
+FW = * # Anything / foreign word
+IN = (
+	PREPOSITIONS = (
+		TIME = on in at since for ago before to past till until by
+		PLACE = in at on by beside under below over above across through to into towards onto from
+		OTHER = from of by on in off at about
+	) # Always followed by noun, proper noun, pronoun, gerund
+	CONJUNCTIONS = (
+		CAUSE = as because "in order that" since "so that"
+		COMPARISON = although as "as though" "even though" "just as" though whereas while
+		CONDITION = "even if" if "in case" "provided that" unless
+		PLACE = where wherever
+		TIME = after "as soon as" "as long as" before once still till until when whenever while
+	)
+)
+JJ = adjective
+JJR = adjective-er
+JJS = adjective-est
+LS = ; ,
+MD = can could may might will would must shall should "ought to" # followed by verb
+NN = noun, singular or mass
+NNS = noun plural
+NNP = # proper nouns, names of things, capitalise
+NNPS = # plural proper nouns, names of things, capitalise
+PDT = twice double all half both "ten times" # should not co-occur
+POS = 's # Always has a NN/NNS before it
+PRP = I me we us you he him she her it they them
+PRP$ = my mine our ours your yours his hers her its their theirs
+RB = (
+	TIME = now never daily
+	PLACE = everywhere there
+	OTHER = easily stealthily farthest
+)
+RBR = better "more *ly" harder "less *ly"
+RBS = best "most *ly" "least *ly" *est
+RP = # particle e.g look _up_, _go_ away, do, don't, let, let's, care _for_, get _at_
+SYM = # symbols like £ # [ etc
+TO = to
+UH = # interjection
+VB = # Verb, base form
+VBD	= # Verb, past tense
+VBG	= # Verb, gerund or present participle
+VBN	= # Verb, past participle
+VBP	= # Verb, non-3rd person singular present
+VBZ	= # Verb, 3rd person singular present
+WDT	= # Wh-determiner
+WP	= # Wh-pronoun
+WP$	= # Possessive wh-pronoun
+WRB	= # Wh-adverb
+
+
+
+CC NNP NNP CC NN VBP EX VBZ JJ NN IN JJ NN IN VBN NNS
