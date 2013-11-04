@@ -51,7 +51,3 @@ WDT	= # Wh-determiner
 WP	= # Wh-pronoun
 WP$	= # Possessive wh-pronoun
 WRB	= # Wh-adverb
-
-
-
-CC NNP NNP CC NN VBP EX VBZ JJ NN IN JJ NN IN VBN NNS
