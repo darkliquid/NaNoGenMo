@@ -7,7 +7,7 @@ up generation into several different phases, from individual sentences to
 high-level plot themeatics.
 
 I'm looking at hand-building some generators based of rules from various story-
-telling and roleplaying games such as FATE, Fiasco and Microscope, then 
+telling and roleplaying games such as [FATE][1], [Fiasco][2] and [Microscope][3], then 
 combining those with stuff derived from the corpus text analysis.
 
 None of this is likely to end well.
@@ -30,3 +30,7 @@ From which I stripped the non-novel text out to make processing easier.
 
 I'm also using various corpora from the NLTK project, namely gutenberg, abc, 
 reuters, brown and movie_reviews.
+
+[1]:http://fate-srd.com/
+[2]:http://www.bullypulpitgames.com/games/fiasco/
+[3]:http://www.lamemage.com/microscope/
