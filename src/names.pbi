@@ -139,13 +139,13 @@
 	| "Bettina" | "Bev" | "Beverley" | "Bibi" | "Birdie" | "Birgit" | "Blair" | "Bobbi" | "Bobette" | "Bonita" | "Branda" | "Brandee" 
 	| "Kirsten" | "Kisha" | "Kittie" | "Kizzie" | "Kizzy" | "Klara" | "Kori" | "Krissy" | "Kristan" | "Kristi" | "Kristie" | "Kristine" 
 	| "Sharmaine" | "Sharon" | "Sharri" | "Sharyl" | "Shauna" | "Shaunna" | "Shavon" | "Shavonne" | "Shawana" | "Shawanda" | "Shawanna" 
-	| "Ming" | "Minh" | "Minna" | "Minnie" | "Minta" | "Miranda""Mireya" | "Miriam" | "Mirian" | "Mirta" | "Missy" | "Mitsue" | "Mitzie" 
-	| "Coretta" | "Cori" | "Corine" | "Corliss" | "Corrie" | "Corrinne" | "Cortney" | "Courtney" | "Cris" | "Criselda" | "Cristy" 
-	| "Polly" | "Porsche" | "Princess" | "Prudence" | "Pura" | "Queenie" | "Quiana" | "Quinn" | "Racheal" | "Rachele" | "Raelene" 
-	| "Lili" | "Lilia" | "Lilian" | "Lilla" | "Lilliam" | "Lillian" | "Lilliana" | "Linda" | "Lindsay" | "Linh" | "Linn" | "Linsey" 
-	| "Tanesha" | "Tara" | "Taren" | "Tari" | "Tarsha" | "Tashina" | "Tasia" | "Tatum" | "Tawanda" | "Tawanna" | "Taylor" | "Tegan" 
-	| "Omega" | "Opal" | "Oretha" | "Orpha" | "Otelia" | "Otha" | "Ozie" | "Page" | "Pamella" | "Pamula" | "Pandora" | "Pat" | "Patria" 
-	| "Delinda" | "Della" | "Delmy" | "Deloise" | "Delora" | "Delpha" | "Delsie" | "Delta" | "Demetrice" | "Deneen" | "Denice" 
+	| "Ming" | "Minh" | "Minna" | "Minnie" | "Minta" | "Miranda" | "Mireya" | "Miriam" | "Mirian" | "Mirta" | "Missy" | "Mitsue" 
+	| "Mitzie" | "Coretta" | "Cori" | "Corine" | "Corliss" | "Corrie" | "Corrinne" | "Cortney" | "Courtney" | "Cris" | "Criselda" 
+	| "Cristy" | "Polly" | "Porsche" | "Princess" | "Prudence" | "Pura" | "Queenie" | "Quiana" | "Quinn" | "Racheal" | "Rachele" 
+	| "Raelene" | "Lili" | "Lilia" | "Lilian" | "Lilla" | "Lilliam" | "Lillian" | "Lilliana" | "Linda" | "Lindsay" | "Linh" | "Linn" 
+	| "Linsey" | "Tanesha" | "Tara" | "Taren" | "Tari" | "Tarsha" | "Tashina" | "Tasia" | "Tatum" | "Tawanda" | "Tawanna" | "Taylor" 
+	| "Tegan" | "Omega" | "Opal" | "Oretha" | "Orpha" | "Otelia" | "Otha" | "Ozie" | "Page" | "Pamella" | "Pamula" | "Pandora" | "Pat" 
+	| "Patria" | "Delinda" | "Della" | "Delmy" | "Deloise" | "Delora" | "Delpha" | "Delsie" | "Delta" | "Demetrice" | "Deneen" | "Denice" 
 	| "Brandon" | "Brandy" | "Breana" | "Breann" | "Bree" | "Brian" | "Briana" | "Brianna" | "Brianne" | "Britany" | "Britney" 
 	| "Dione" | "Dixie" | "Dolores" | "Dominica" | "Dominique" | "Dona" | "Donna" | "Donnetta" | "Donnette" | "Donya" | "Doreen" 
 	| "Neoma" | "Neomi" | "Nereida" | "Neta" | "Ngoc" | "Nichelle" | "Nichol" | "Nicola" | "Nicolasa" | "Nicole" | "Nicolette" 
@@ -382,13 +382,11 @@
 ;
 
 %resource male-name:
-	male-first-name " " last-name | male-first-name " " male-first-name " " last-name
-	| male-first-name " " last-name "-" last-name | male-first-name " " male-first-name " " last-name "-" last-name
+	male-first-name " " last-name
 ;
 
 %resource female-name:
-	female-first-name " " last-name | female-first-name " " female-first-name " " last-name
-	| female-first-name " " last-name "-" last-name | female-first-name " " female-first-name " " last-name "-" last-name
+	female-first-name " " last-name
 ;
 
 %resource person-name:
