@@ -29,8 +29,37 @@ I'm making use of a few hand-picked novels from Project Gutenburg, namely:
 From which I stripped the non-novel text out to make processing easier.
 
 I'm also using various corpora from the NLTK project, namely gutenberg, abc, 
-reuters, brown and movie_reviews.
+reuters, brown and movie_reviews as well as a lovecraft corpus found here:
+https://raw.github.com/jiko/lovecraft_ebooks/master/corpus.txt
 
 [1]:http://fate-srd.com/
 [2]:http://www.bullypulpitgames.com/games/fiasco/
 [3]:http://www.lamemage.com/microscope/
+
+# Resources
+
+So far, to generate the various data I'm using, I've grabbed databases and
+lists from a variety of sources. The current list includes:
+
+**Names**
+http://stackoverflow.com/questions/1803628/raw-list-of-person-names
+
+**Titles**
+http://www.gutenberg.org/dirs/GUTINDEX.ALL
+
+**US Cities**
+http://wiki.skullsecurity.org/images/5/54/US_Cities.txt
+
+**Job Titles**
+http://www.bls.gov/soc/soc_2010_direct_match_title_file.xls
+
+**Adjectives**
+http://www.enchantedlearning.com/wordlist/adjectives.shtml
+
+**Nouns**
+http://www.momswhothink.com/reading/list-of-nouns.html
+
+# Tools
+
+**The Dada Engine**
+http://dev.null.org/dadaengine/
