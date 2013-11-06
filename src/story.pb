@@ -6,6 +6,14 @@
 #include "words.pbi"
 #include "title.pbi"
 
-S: PROLOGUE TITLE(title>upcase-first)
+%resource organisation: "The Company";
 
+#include "sentences.pbi"
+
+S: 	PROLOGUE TITLE(title>upcase-first)
+	BODY
+	paragraph+
+	EPILOGUE
 ;
+
+paragraph: sentence+ PBRK;
